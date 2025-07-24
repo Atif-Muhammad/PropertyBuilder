@@ -45,14 +45,14 @@ const Contact = () => {
               Ready to start your construction project? Contact us today for a free consultation and detailed quote. 
               Our team is here to help bring your vision to life.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            {/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="cta" size="lg">
                 Call (555) 123-4567
               </Button>
               <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary">
                 Schedule Consultation
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -75,17 +75,16 @@ const Contact = () => {
                       </p>
                     ))}
                   </div>
-                  <Button variant="outline" size="sm">
+                  {/* <Button variant="outline" size="sm">
                     {info.action}
-                  </Button>
+                  </Button> */}
                 </CardContent>
               </Card>
             ))}
           </div>
 
           {/* Contact Form and Map */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {/* Contact Form */}
+          {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <Card>
               <CardHeader>
                 <CardTitle className="text-2xl">Request a Quote</CardTitle>
@@ -184,9 +183,7 @@ const Contact = () => {
               </CardContent>
             </Card>
 
-            {/* Map and Additional Info */}
             <div className="space-y-6">
-              {/* Map Placeholder */}
               <Card>
                 <CardHeader>
                   <CardTitle>Our Location</CardTitle>
@@ -210,7 +207,6 @@ const Contact = () => {
                 </CardContent>
               </Card>
 
-              {/* Emergency Contact */}
               <Card className="bg-accent text-accent-foreground">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
@@ -228,7 +224,6 @@ const Contact = () => {
                 </CardContent>
               </Card>
 
-              {/* Additional Contact Methods */}
               <Card>
                 <CardHeader>
                   <CardTitle>Other Ways to Reach Us</CardTitle>
@@ -253,7 +248,7 @@ const Contact = () => {
                 </CardContent>
               </Card>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -266,14 +261,14 @@ const Contact = () => {
           <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
             Don't wait to start your construction project. Contact us today and let's discuss how we can bring your vision to life.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          {/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="default" size="lg">
               Schedule Free Consultation
             </Button>
             <Button variant="outline" size="lg">
               View Our Portfolio
             </Button>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>
