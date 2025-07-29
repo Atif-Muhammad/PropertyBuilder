@@ -47,11 +47,17 @@ const Navigation = () => {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center overflow-hidden">
+              {/* <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center overflow-hidden">
                 <span className="text-white font-bold text-lg"><img src="/image.png" alt="" /></span>
-              </div>
+              </div> */}
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 10L12 3L21 10V21H3V10Z" />
+                <path d="M9 21V14H15V21" />
+                <path d="M12 3V8" />
+              </svg>
+
               <span className="text-xl font-bold text-construction-steel">
-                B-Grade Sami
+                Property Builders
               </span>
             </Link>
 
@@ -62,8 +68,8 @@ const Navigation = () => {
                   key={item.href}
                   to={item.href}
                   className={`text-sm font-medium transition-colors hover:text-primary ${isActive(item.href)
-                      ? "text-primary border-b-2 border-primary"
-                      : "text-gray-700"
+                    ? "text-primary border-b-2 border-primary"
+                    : "text-gray-700"
                     }`}
                 >
                   {item.label}
@@ -97,8 +103,8 @@ const Navigation = () => {
                     key={item.href}
                     to={item.href}
                     className={`block px-3 py-2 text-base font-medium transition-colors ${isActive(item.href)
-                        ? "text-primary bg-primary/5"
-                        : "text-gray-700 hover:text-primary hover:bg-gray-50"
+                      ? "text-primary bg-primary/5"
+                      : "text-gray-700 hover:text-primary hover:bg-gray-50"
                       }`}
                     onClick={() => setIsOpen(false)}
                   >

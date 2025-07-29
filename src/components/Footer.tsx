@@ -11,13 +11,19 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
+              {/* <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-lg"><img src="/image.png" alt="" /></span>
-              </div>
-              <span className="text-xl font-bold">B-Grade Sami</span>
+              </div> */}
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 10L12 3L21 10V21H3V10Z" />
+                <path d="M9 21V14H15V21" />
+                <path d="M12 3V8" />
+              </svg>
+
+              <span className="text-xl font-bold">Property Builder</span>
             </div>
             <p className="text-gray-300 mb-4">
-              Your trusted construction partner for residential and commercial projects. 
+              Your trusted construction partner for residential and commercial projects.
               Quality craftsmanship, on-time delivery, and exceptional service.
             </p>
             <div className="flex space-x-4">
